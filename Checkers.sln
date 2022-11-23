@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers\Checkers.csproj", "{EFEE0D21-49B7-4631-BB58-4971D287B6A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF} = {BC8ACF44-23F0-410D-B3B1-235316A47BEF}
+		{0482A783-34FB-4119-9127-37B4ACEE7204} = {0482A783-34FB-4119-9127-37B4ACEE7204}
+		{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8} = {88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckersBase", "CheckersBase\CheckersBase.csproj", "{BC8ACF44-23F0-410D-B3B1-235316A47BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCheckersRules", "TestCheckersRules\TestCheckersRules.csproj", "{4C557880-C44F-4292-9685-4D3E21FB776A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EFEE0D21-49B7-4631-BB58-4971D287B6A9} = {EFEE0D21-49B7-4631-BB58-4971D287B6A9}
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF} = {BC8ACF44-23F0-410D-B3B1-235316A47BEF}
+		{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8} = {88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckersRules", "CheckersRules\CheckersRules.csproj", "{0482A783-34FB-4119-9127-37B4ACEE7204}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF} = {BC8ACF44-23F0-410D-B3B1-235316A47BEF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentSmith", "AgentSmith\AgentSmith.csproj", "{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF} = {BC8ACF44-23F0-410D-B3B1-235316A47BEF}
+		{0482A783-34FB-4119-9127-37B4ACEE7204} = {0482A783-34FB-4119-9127-37B4ACEE7204}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://namolem.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Checkers\\Checkers.csproj
+		SccProjectName1 = Checkers
+		SccLocalPath1 = Checkers
+		SccProjectUniqueName2 = CheckersBase\\CheckersBase.csproj
+		SccProjectName2 = CheckersBase
+		SccLocalPath2 = CheckersBase
+		SccProjectUniqueName3 = TestCheckersRules\\TestCheckersRules.csproj
+		SccProjectName3 = TestCheckersRules
+		SccLocalPath3 = TestCheckersRules
+		SccProjectUniqueName4 = CheckersRules\\CheckersRules.csproj
+		SccProjectName4 = CheckersRules
+		SccLocalPath4 = CheckersRules
+		SccProjectUniqueName5 = AgentSmith\\AgentSmith.csproj
+		SccProjectName5 = AgentSmith
+		SccLocalPath5 = AgentSmith
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFEE0D21-49B7-4631-BB58-4971D287B6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEE0D21-49B7-4631-BB58-4971D287B6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEE0D21-49B7-4631-BB58-4971D287B6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEE0D21-49B7-4631-BB58-4971D287B6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8ACF44-23F0-410D-B3B1-235316A47BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C557880-C44F-4292-9685-4D3E21FB776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C557880-C44F-4292-9685-4D3E21FB776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C557880-C44F-4292-9685-4D3E21FB776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C557880-C44F-4292-9685-4D3E21FB776A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0482A783-34FB-4119-9127-37B4ACEE7204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0482A783-34FB-4119-9127-37B4ACEE7204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0482A783-34FB-4119-9127-37B4ACEE7204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0482A783-34FB-4119-9127-37B4ACEE7204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EADCF1-519D-4596-88AA-A3EA3A5DB9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
